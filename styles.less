@@ -1,0 +1,32 @@
+@bgcolor: rgb(190, 54, 134);
+
+.container {
+  width: 700px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  background-color: @bgcolor;
+  padding: 10px;
+}
+
+.poster {
+  max-width: 200px;
+  max-height: 350px;
+}
+
+.infosection {
+  flex-grow: 1;
+  padding: 15px;
+}
+
+.stars {
+  span {
+    color: rgb(180, 180, 180);
+    user-select: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .filled {
+    color: black;
+  }
+}
