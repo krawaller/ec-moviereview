@@ -7,7 +7,7 @@ function renderMovie(data){
 
   ui.actors.empty();
   for(let i=0; i<data.actors.length; i++){
-    ui.actors.append("<li>" + data.actors[i] + '</li>');
+    ui.actors.append("<li>" + data.actors[i] + "</li>");
   }
 }
 
